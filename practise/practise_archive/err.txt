@@ -1,0 +1,7 @@
+fxd_pt1.c: In function ‘main’:
+fxd_pt1.c:22:1: error: unterminated comment
+ /* section 2: Read multiple values from a single statement
+ ^
+fxd_pt1.c:19:1: error: expected declaration or statement at end of input
+ printf("The entered uint16_t bit number: %" PRIu16 "\n",n1);fflush(stdout);
+ ^
