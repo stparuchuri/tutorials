@@ -1,0 +1,12 @@
+#!/usr/bin bash
+
+#Buildone module
+function makeone{
+rm -f *.o
+gcc -pg -Wall -pedantic -c$1.c
+if [ -f$1.o ]; then
+mv $1.o ../bin
+fi
+
+#build support modules
+// nothing for now

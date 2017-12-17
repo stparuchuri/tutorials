@@ -1,0 +1,6 @@
+#! /usr/bin bash
+UXSRC=./src
+UXBIN=./bin
+gcc -c -Wall pedantic -I$UXSRC ./src/root_graph.c root_graph.o
+
+gcc -Wall -pedantic -o root_graph.o root_graph.exe $UXBIN/
