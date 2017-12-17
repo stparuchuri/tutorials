@@ -1,0 +1,5 @@
+x1: 2	value using reference: 2
+references and arrays
+array's first element-x2[0]: 10, and using reference- where reference points to first element: 10
+after r2++
+array's first element-x2[0]: 11, and using reference -where reference points to first element: 11

@@ -1,0 +1,26 @@
+#! /usr/bin/bash
+
+file=refer_1
+err_file=err
+out_file=out
+
+if [ -f $file.o ]; then
+	rm -f $file.o
+else
+	echo "---------no object file present----------"
+fi
+
+echo "------ compiling the file --------"
+g++ $file.c -o $file.o 2> $err_file.txt
+echo "--------- compile finished -------"
+
+if [ -f $file.o ]; then
+	echo " compile sucessful "
+	./$file.o > $out_file.txt
+	cat $out_file.txt
+else
+	echo " --------- No object file present -------"
+	echo " -------- opening  err.txt ----------"
+	cat $err_file.txt | more
+	echo " ----------Report end --------------"
+fi

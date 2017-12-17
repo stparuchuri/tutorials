@@ -1,0 +1,27 @@
+#! /usr/bin/bash
+
+echo "for loop example: "
+for i in `seq 1 10`; do
+	echo "value of i: "  $i
+done
+
+echo "while loop example: "
+
+counter=0
+while [ $counter -lt 10 ]; do
+	echo "value of if from while loop: " $counter
+	if [ $counter -eq 10 ]; then
+		echo "counter = 10"
+	elif [ $counter -eq 5 ]; then
+		echo "counter = 5"
+	else
+		echo "counter != 10"
+	fi
+	let counter+=1
+done
+
+# Buildone module
+function buildone {
+# function description
+
+}
