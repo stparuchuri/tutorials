@@ -5,10 +5,11 @@
 # (c) Surya Paruchuri.
 #####################################################################
 
-import example1
+from swig_ex1 import *
 
 def main():
 	print("++++++++ Calling the Generated interface function ++++++++")
+	#print(dir(swig_ex1))
 	printNumber(5)
 	print("++++++++ End of main ++++++++")
 
