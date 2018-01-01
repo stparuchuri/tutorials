@@ -1,0 +1,30 @@
+#!/bin/bash
+#################################################################
+# Dispay a colored text in bash script
+# @author: Surya Teja Paruchuri
+# @date: 01/01/2018
+# (c) Surya Paruchuri
+#################################################################
+
+echo " ============= echo colored text in bash =============="
+
+# tput setaf <[1-7]>: for foreground font color
+# tput setbf <[1-7]>: for background font color
+# tput sgr 0: for reset the color
+# tput bold: for bold
+
+tput bold; tput setaf 1; echo -n "[ERROR]:"; tput sgr 0; tput setaf 7;  echo "To show errors"
+tput bold; tput setaf 2; echo -n "[PASS]:"; tput setaf 7; echo "To show a success"; tput sgr 0;
+tput bold; tput setaf 3; echo -n "[Warning]:"; tput sgr 0; tput setaf 7; echo "To show a warning"
+tput bold; tput setaf 6; echo -n "[HIGHLIGHT]:"; tput sgr 0; tput setaf 7; echo "To highlight an event"
+
+tput setaf 1; echo -n "[ERROR]:";tput sgr 0; echo "To show errors"
+tput setaf 2; echo -n "[PASS]:"; tput sgr 0; echo "To show a success"
+tput setaf 3; echo -n "[Warning]:"; tput sgr 0; echo "To show a warning"
+tput setaf 6; echo -n "[HIGHLIGHT]:"; tput sgr 0; echo "To highlight an event"
+
+tput setaf 1; echo -n "[ERROR]:"; echo "To show errors"; tput sgr 0;
+tput setaf 2; echo -n "[PASS]:"; echo "To show a success"; tput sgr 0;
+tput setaf 3; echo -n "[Warning]:"; echo "To show a warning"; tput sgr 0;
+tput setaf 6; echo -n "[HIGHLIGHT]:"; echo "To highlight an event"; tput sgr 0;
+
