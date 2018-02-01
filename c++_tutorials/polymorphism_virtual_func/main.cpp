@@ -3,7 +3,7 @@ using namespace std;
 
 class enemy{
 public:
-virtual void attack(){}
+virtual void attack()=0;
 };
 
 class ninja: public enemy{
