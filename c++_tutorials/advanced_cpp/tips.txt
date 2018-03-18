@@ -18,4 +18,9 @@
 
 4. Unlike pointers, reference don't really exist in memory.
 
-5. 
+5. Unlike in C, in C++ structures can have member functions.
+   In C++ by default, the access specifier for struct is public,
+   and for classes it is private. ( In C, structures can only
+   hold variables- No member functions).
+
+6. 
