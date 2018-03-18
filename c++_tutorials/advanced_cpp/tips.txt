@@ -11,4 +11,11 @@
    instead convert the logic into mathematical programming.
    This speeds up the systems a little.
 
-2. 
+2. "nullptr" introdued in c++, to initialize a pointer to a
+   nullptr.
+
+3. delete[]- should use to delete an array variable.
+
+4. Unlike pointers, reference don't really exist in memory.
+
+5. 
