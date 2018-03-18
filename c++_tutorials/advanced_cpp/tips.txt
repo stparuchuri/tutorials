@@ -1,0 +1,14 @@
+/********************************************************
+* This txt file is a list of some optimization tips learned
+* from the turotials
+*
+* @author: Surya Paruchuri
+* @dateL March 18 2018.
+*********************************************************/
+
+1. On if statement's use: try to avoid branch statements
+   as much as possible. They reduce the speed of the program.
+   instead convert the logic into mathematical programming.
+   This speeds up the systems a little.
+
+2. 
