@@ -1,3 +1,10 @@
+#######################################
+# CMakeLists file for the project
+#
+# @author: Surya Paruchuri
+# @date: March 18 2018.
+#######################################
+
 cmake_minimum_required(VERSION 3.5)
 
 project (linuxsetuphelloworld)
