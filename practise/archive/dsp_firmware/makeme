@@ -1,2 +1,0 @@
-#! /usr/bin/bash
-gcc sine_wav_generator.c -o sine_wav_generator.o

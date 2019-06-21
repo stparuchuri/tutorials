@@ -1,3 +1,0 @@
-#! /usr/bin/bash
-gcc bi_srch_tre_llist.c -o bi_srch_tre_llist.o
-
